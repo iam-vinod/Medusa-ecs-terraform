@@ -1,0 +1,17 @@
+# Terraform
+terraform.tfstate
+terraform.tfstate.backup
+*.tfstate
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+
+# AWS CLI install files
+awscliv2.zip
+aws/
+__pycache__/
+
+# Node and Docker
+node_modules/
+*.log
+.env
